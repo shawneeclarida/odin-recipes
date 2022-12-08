@@ -1,1 +1,2 @@
 # odin-recipes
+This is a basic HTML website demonstrating understanding of the boilerplate, links, and images. This also shows some understanding of Git and GitHub. The website contains three recipe pages and their images, as well as an index page containing links to the recipes. 
