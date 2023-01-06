@@ -1,0 +1,18 @@
+body {
+    margin:0;
+    font-family:'Courier New', "Monospace", san-serif;
+    text-align: center;
+}
+.index {
+    color: black;
+    background-color: rgb(255, 253, 208);
+    font-size: 50px;
+    background-image: url("images/cute-chef.webp");
+    background-size: 700px;
+    height:600px;
+    background-position: center; 
+    background-repeat: no-repeat;
+    padding-top:50px;
+    padding-bottom:50px;
+
+}
