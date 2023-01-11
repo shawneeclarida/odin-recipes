@@ -1,12 +1,10 @@
-body {
+.index {
+    color: black;
     margin:0;
     font-family:'Courier New', "Monospace", san-serif;
     text-align: center;
-}
-.index {
-    color: black;
     background-color: rgb(255, 253, 208);
-    font-size: 50px;
+    font-size: 65px;
     background-image: url("images/cute-chef.webp");
     background-size: 700px;
     height:600px;
@@ -14,5 +12,85 @@ body {
     background-repeat: no-repeat;
     padding-top:50px;
     padding-bottom:50px;
-
+}
+.chicken {
+    position: relative;
+    width:200px;
+    float:left;
+    left:10%;
+}
+.cute-chick {
+    display: black;
+    width:100%;
+}
+.chick-overlay {
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:25%;
+    background:rgba(0,0,0,0.6);
+    color:white;
+    font-family:'Courier New';
+    align-items:center;
+    justify-content:center;
+    display:flex;
+    opacity:0;
+}
+.chick-overlay:hover{
+    opacity:1;
+}
+.cucumber {
+    position: relative;
+    width:350px;
+    float:left;
+    left:25%
+}
+.green-cucumber{
+        display: black;
+        width:100%;
+}
+.cucumber-overlay{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:25%;
+    background:rgba(0,0,0,0.6);
+    color:white;
+    font-family:'Courier New';
+    align-items:center;
+    justify-content:center;
+    display:flex;
+    opacity:0;
+}
+.cucumber-overlay:hover{
+opacity:1;
+}
+.egg { 
+    position: relative;
+    width:200px;
+    float:left;
+    left:40%;
+}
+.meditating-egg {
+    display: black;
+    width:100%;
+}
+.egg-overlay {
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:25%;
+    background:rgba(0,0,0,0.6);
+    color:white;
+    font-family:'Courier New';
+    align-items:center;
+    justify-content:center;
+    display:flex;
+    opacity:0;
+}
+.egg-overlay:hover {
+    opacity:1;
 }
